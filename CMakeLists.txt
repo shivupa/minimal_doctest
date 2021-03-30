@@ -6,8 +6,8 @@ enable_testing()
 
 FetchContent_Declare(
   doctest
-  GIT_REPOSITORY https://github.com/shivupa/doctest.git
-  GIT_TAG origin/bug489)
+  GIT_REPOSITORY https://github.com/onqtam/doctest.git
+  GIT_TAG origin/master)
 FetchContent_MakeAvailable(doctest)
 include(${doctest_SOURCE_DIR}/scripts/cmake/doctest.cmake)
 
